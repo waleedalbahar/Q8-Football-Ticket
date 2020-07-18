@@ -22,9 +22,10 @@ class GameChosenVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+  
     @IBAction func pressPay(_ sender: Any) {
-        performSegue(withIdentifier: "next", sender: nil)
-    }
+        performSegue(withIdentifier: "next", sender:nil) }
+}
     
     /*
     // MARK: - Navigation
@@ -36,4 +37,4 @@ class GameChosenVC: UIViewController {
     }
     */
 
-}
+

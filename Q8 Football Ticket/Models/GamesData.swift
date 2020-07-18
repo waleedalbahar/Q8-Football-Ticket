@@ -22,10 +22,10 @@ struct league{
     }
 // World Cup[
 var worldCupGames: [GamesModel] = [
-    GamesModel(gameName: "World Cup Game 1 ", price: 70
+    GamesModel(gameName: "World Cup Game 1", price: 70
     ,date: "December 2, 2022", time: 5),
-    GamesModel(gameName: "World Cup Game 2 ", price: 70,date: "December 2, 2022", time: 5),
-    GamesModel(gameName: "World Cup Game 3 ", price: 70,date: "December 2, 2022", time: 5)
+    GamesModel(gameName: "World Cup Game 2", price: 70,date: "December 2, 2022", time: 5),
+    GamesModel(gameName: "World Cup Game 3", price: 70,date: "December 2, 2022", time: 5)
 ]
 
 // Premier League[
@@ -36,9 +36,9 @@ var pLGames: [GamesModel] = [GamesModel(gameName: "PL Game 1", price: 70,date: "
 ]
 
 // La Liga[
-var laLigaGames: [GamesModel] = [GamesModel(gameName: "La Liga Game 1 ", price: 70,date: "December 2, 2022", time: 5),
-    GamesModel(gameName: "La Liga Game 2 ", price: 70,date: "December 2, 2022", time: 5),
-    GamesModel(gameName: "La Liga Game 3 ", price: 70,date: "December 2, 2022", time: 5)
+var laLigaGames: [GamesModel] = [GamesModel(gameName: "La Liga Game 1", price: 70,date: "December 2, 2022", time: 5),
+    GamesModel(gameName: "La Liga Game 2", price: 70,date: "December 2, 2022", time: 5),
+    GamesModel(gameName: "La Liga Game 3", price: 70,date: "December 2, 2022", time: 5)
 ]
 
 

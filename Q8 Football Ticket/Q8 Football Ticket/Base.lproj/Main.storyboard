@@ -221,6 +221,9 @@
                                 <state key="normal" title="Pay">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="pressPay:" destination="dXw-YY-RB9" eventType="touchUpInside" id="bYO-mP-ufI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price: 70 KD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ka7-6J-i64">
                                 <rect key="frame" x="73" y="488" width="294" height="54"/>
@@ -256,7 +259,7 @@
         <!--PaymentVC-->
         <scene sceneID="8zq-Zz-2zi">
             <objects>
-                <viewController id="gro-sy-Bze" customClass="PaymentVC" sceneMemberID="viewController">
+                <viewController id="gro-sy-Bze" customClass="PaymentVC" customModule="Q8_Football_Ticket" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wwd-KA-pI4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -275,12 +278,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="u2P-zI-tpr"/>
                     <connections>
-                        <outlet property="paymentLabel" destination="FhW-R1-UfV" id="W8u-DQ-mz5"/>
+                        <outlet property="paymentLabel" destination="FhW-R1-UfV" id="6NW-9Z-Qw3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xh5-gi-rwC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4505.7971014492759" y="143.97321428571428"/>
+            <point key="canvasLocation" x="4501" y="144"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QSj-Jp-9XH">
